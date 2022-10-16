@@ -1,0 +1,24 @@
+{
+  "name": "histoirepoc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "dependencies": {
+    "@chakra-ui/vue-next": "1.0.0-alpha.15",
+    "@emotion/css": "^11.10.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@histoire/plugin-vue": "^0.11.5",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "histoire": "^0.11.5",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
